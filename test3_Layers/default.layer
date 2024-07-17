@@ -1,0 +1,30 @@
+GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+ coords 135.47 14.576 78.586
+ angleY 0
+}
+GenericEntity : "{54986385A6AF77B2}Prefabs/Props/Military/Arsenal/ArsenalBoxes/ArsenalBox_Base.et" {
+ components {
+  SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61DF1DAEC57722B5}" {
+    }
+   }
+  }
+ }
+ coords 137.304 15.236 78.674
+}
+GenericEntity : "{D3FCFE5148A78C43}Prefabs/MP/CombatOps/AmmoBoxes/ArsenalBox_USSR_CO.et" {
+ coords 133.555 14.407 79.39
+}
+GenericEntity : "{F33CB961C8423E8C}PrefabsEditable/Auto/Props/Military/Arsenal/ArsenalBoxes/FIA/E_ArsenalBox_FIA.et" {
+ components {
+  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot test {
+     Prefab "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et"
+    }
+   }
+  }
+ }
+ coords 138.085 17.121 83.193
+}
