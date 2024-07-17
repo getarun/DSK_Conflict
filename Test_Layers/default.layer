@@ -1,0 +1,30 @@
+SCR_MapEntity MapEntity_Everon1 : "{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et" {
+ coords 5007.97 71.227 6287.35
+}
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "US"
+   }
+  }
+  coords 6426.45 159.224 6395.474
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bShowNotifications 1
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    Enabled 0
+   }
+  }
+  coords 4983.948 70.61 6272.624
+ }
+}
+SCR_EditorModeEntity : "{E8DD27917B43F8BD}Prefabs/Editor/Modes/EditorModeBuilding.et" {
+ coords 6393.124 154.656 6348.649
+}
