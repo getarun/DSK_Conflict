@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames + {
+    "{F74F3305B3A080B9}Sounds/RadioProtocol/RadioProtocol_Campaign_SL_US.acp" "{B3121241CD2D1794}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_1_US.acp" "{769D43ACF046BF37}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_2_US.acp" "{01972B2404E45047}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_3_US.acp" "{D88FC72ACD99E54C}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_4_US.acp" "{B6C2F973F8F80BC4}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_5_US.acp" "{91D53896F5AD5DB4}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_US.acp" "{FC7A7A9F92D1E225}Sounds/RadioProtocol/RadioProtocol_Campaign_SL_RU.acp" "{7413663A6477A6AE}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_1_RU.acp" "{C6C424D13BD59536}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_2_RU.acp" "{A8891A880EB47BBE}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_3_RU.acp" "{E19A40EC2D7BC495}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_4_RU.acp" "{8FD77EB5181A2A1D}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_5_RU.acp"
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+  }
+  FactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "US"
+  }
+  SCR_CampaignBuildingComponent "{61F48DA2BC8302E0}" {
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   m_fDOTScale 0.25
+  }
+  SCR_MapDescriptorComponent "{61F48DA2BC8302FC}" {
+   VisibleOnMap 0
+   MainType Unit
+   UnitType Infantry
+  }
+  SCR_ResourceComponent "{61F48DA2BC8302FE}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E6485852E650CC4}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A726B65DD4C1123E}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/Helmet_BW_FT.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3AA3547BE24AD632}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Flecktarn.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{0456B9E24C3EF2BA}Prefabs/Characters/Vests/Vest_MOBAST/Vest_MOBAST.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E566B3970D935FC4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Flecktarn.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{13AA741498656855}Prefabs/Items/Equipment/Backpacks/FILBE/FILBE_Backpack_Flecktarn.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FA01945CF8587CC7}Prefabs/Characters/Vests/Vest_JPC/Variants/Vest_JPC_Rifleman_Flecktarn.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/FILBE/FILBE_Backpack_Flecktarn.et"
+     PrefabsToSpawn + {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_MOBAST/Vest_MOBAST.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 536.391 0.985 843.914
+}

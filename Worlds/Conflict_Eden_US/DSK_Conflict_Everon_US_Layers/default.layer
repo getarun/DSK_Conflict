@@ -102,6 +102,23 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
     Description "discord.dsk-blitzregiment.de"
    }
    m_FactionFlagMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+    m_aCompanyNames {
+     SCR_CallsignInfo "{55CCB792CD021D5C}" {
+      m_sCallsign "Company_A"
+     }
+    }
+    m_aPlatoonNames {
+     SCR_CallsignInfo "{55CCB792CE6E998D}" {
+      m_sCallsign "Platoon_1"
+     }
+    }
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+      m_sCallsign "Squad 1"
+     }
+    }
+   }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
      m_aMultiLists {
@@ -1148,8 +1165,8 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
  coords 0 0 0
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
-   m_sLoadoutName "US Rifleman"
-   m_sLoadoutResource "{790EC18FB168E920}Prefabs/Characters/Campaign/Final/CPR_US_Player.et"
+   m_sLoadoutName "Schütze"
+   m_sLoadoutResource "{2FFDAE15F04DD20B}Prefabs/Characters/Campaign/Final/DSK_US_Player.et"
   }
   SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
    m_sLoadoutResource "{305087F7627D5B0B}Prefabs/Characters/Campaign/Final/CPR_USSR_Player.et"
