@@ -97,6 +97,11 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+    Name "NATO"
+    Description "discord.dsk-blitzregiment.de"
+   }
+   m_FactionFlagMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
      m_aMultiLists {
@@ -151,13 +156,13 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
-        SCR_EntityCatalogInventoryItem "{5C62F7D8EA121E09}" {
-         m_sEntityPrefab "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
-        }
         SCR_EntityCatalogInventoryItem "{5C62F7D8E95012DA}" {
          m_sEntityPrefab "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8140863A6}" {
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8EA121E09}" {
+         m_sEntityPrefab "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8128DB218}" {
          m_sEntityPrefab "{B31929F65F0D0279}Prefabs/Weapons/Rifles/M14/Rifle_M21.et"
@@ -579,17 +584,316 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
      }
     }
    }
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C90D92F493E764B}" {
+     m_sCallsignShort "Gold"
+     m_sCallsignUpperCase "GOLD"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F49F79967}" {
+     m_sCallsignShort "Obers"
+     m_sCallsignUpperCase "OBERS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F482DA59B}" {
+     m_sCallsignShort "Burg"
+     m_sCallsignUpperCase "BURG"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F483330D2}" {
+     m_sCallsignShort "Watt"
+     m_sCallsignUpperCase "WATT"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48170DA8}" {
+     m_sCallsignShort "Zug"
+     m_sCallsignUpperCase "ZUG"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F487834E8}" {
+     m_sCallsignShort "Aarau"
+     m_sCallsignUpperCase "Aarau"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48410A86}" {
+     m_sCallsignShort "Bruck"
+     m_sCallsignUpperCase "BRUCK"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48A4E31F}" {
+     m_sCallsignShort "Trais"
+     m_sCallsignUpperCase "TRAIS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F488C6B57}" {
+     m_sCallsignShort "Feld"
+     m_sCallsignUpperCase "FELD"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F4896F764}" {
+     m_sCallsignShort "Ischl"
+     m_sCallsignUpperCase "ISCHL"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48FBD90E}" {
+     m_sCallsignShort "Hall"
+     m_sCallsignUpperCase "HALL"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48DFF562}" {
+     m_sCallsignShort "Haag"
+     m_sCallsignUpperCase "HAAG"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7724C851}" {
+     m_sCallsignShort "Worms"
+     m_sCallsignUpperCase "WORMS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77097F3F}" {
+     m_sCallsignShort "Neuss"
+     m_sCallsignUpperCase "NEUSS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77102B55}" {
+     m_sCallsignShort "Mind"
+     m_sCallsignUpperCase "MIND"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F777ABD04}" {
+     m_sCallsignShort "Ems"
+     m_sCallsignUpperCase "EMS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F775EBBC1}" {
+     m_sCallsignShort "Glien"
+     m_sCallsignUpperCase "GLIEN"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77A28EB6}" {
+     m_sCallsignShort "Hain"
+     m_sCallsignUpperCase "HAIN"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77871C23}" {
+     m_sCallsignShort "Rheins"
+     m_sCallsignUpperCase "RHEINS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77EB96A0}" {
+     m_sCallsignShort "Flaw"
+     m_sCallsignUpperCase "FLAW"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77CC2518}" {
+     m_sCallsignShort "Glar"
+     m_sCallsignUpperCase "GLAR"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77D3715B}" {
+     m_sCallsignShort "Lenz"
+     m_sCallsignUpperCase "LENZ"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7635D418}" {
+     m_sCallsignShort "Flims"
+     m_sCallsignUpperCase "FLIMS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F761C3FF2}" {
+     m_sCallsignShort "Sion"
+     m_sCallsignUpperCase "SION"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7660CFAA}" {
+     m_sCallsignShort "Biel"
+     m_sCallsignUpperCase "BIEL"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F764A6E6B}" {
+     m_sCallsignShort "Thun"
+     m_sCallsignUpperCase "THUN"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76AD4D35}" {
+     m_sCallsignShort "Chur"
+     m_sCallsignUpperCase "CHUR"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76B1EF3A}" {
+     m_sCallsignShort "Wels"
+     m_sCallsignUpperCase "WELS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7695FF2F}" {
+     m_sCallsignShort "Zell"
+     m_sCallsignUpperCase "ZELL"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76FF94B1}" {
+     m_sCallsignShort "Gmünd"
+     m_sCallsignUpperCase "GMÜND"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76C68EED}" {
+     m_sCallsignShort "Linz"
+     m_sCallsignUpperCase "LINZ"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F752A9F29}" {
+     m_sCallsignShort "Seek"
+     m_sCallsignUpperCase "SEEK"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F750E6FB9}" {
+     m_sCallsignShort "Graz"
+     m_sCallsignUpperCase "GRAZ"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7517240F}" {
+     m_sCallsignShort "Wien"
+     m_sCallsignUpperCase "WIEN"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7574D867}" {
+     m_sCallsignShort "Lich"
+     m_sCallsignUpperCase "LICH"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F755C4871}" {
+     m_sCallsignShort "Erft"
+     m_sCallsignUpperCase "ERFT"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75A0502B}" {
+     m_sCallsignShort "Weim"
+     m_sCallsignUpperCase "WEIM"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F758ABFD3}" {
+     m_sCallsignShort "Flens"
+     m_sCallsignUpperCase "FLENS"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75EF8263}" {
+     m_sCallsignShort "Boch"
+     m_sCallsignUpperCase "BOCH"
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75F0F224}" {
+     m_sCallsignShort "Bonn"
+     m_sCallsignUpperCase "BONN"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F58366BB}" {
+     m_sCallsign "Mainz"
+     m_sCallsignShort "Mainz"
+     m_sCallsignUpperCase "MAINZ"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F5372174}" {
+     m_sCallsign "Köln"
+     m_sCallsignShort "Köln"
+     m_sCallsignUpperCase "KÖLN"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F56E44CC}" {
+     m_sCallsign "Uzn"
+     m_sCallsignShort "Uzn"
+     m_sCallsignUpperCase "UZN"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F6DD2DD1}" {
+     m_sCallsign "Stans"
+     m_sCallsignShort "Stans"
+     m_sCallsignUpperCase "STANS"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F672B186}" {
+     m_sCallsign "Krems"
+     m_sCallsignShort "Krems"
+     m_sCallsignUpperCase "KREMS"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F7B23CA8}" {
+     m_sCallsign "Klamm"
+     m_sCallsignShort "Klamm"
+     m_sCallsignUpperCase "KLAMM"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F7F7322B}" {
+     m_sCallsign "Friel"
+     m_sCallsignShort "Friel"
+     m_sCallsignUpperCase "FRIEL"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F73438EA}" {
+     m_sCallsign "Templ"
+     m_sCallsignShort "Templ"
+     m_sCallsignUpperCase "TEMPL"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F74204C5}" {
+     m_sCallsign "Frank"
+     m_sCallsignShort "Frank"
+     m_sCallsignUpperCase "FRANK"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F890D636}" {
+     m_sCallsign "Breis"
+     m_sCallsignShort "Breis"
+     m_sCallsignUpperCase "BREIS"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F8A13E60}" {
+     m_sCallsign "Ulm"
+     m_sCallsignShort "Ulm"
+     m_sCallsignUpperCase "ULM"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F8F50A27}" {
+     m_sCallsign "Kiel"
+     m_sCallsignShort "Kiel"
+     m_sCallsignUpperCase "KIEL"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F81DC38F}" {
+     m_sCallsign "Breg"
+     m_sCallsignShort "Breg"
+     m_sCallsignUpperCase "BREG"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F824CF9A}" {
+     m_sCallsign "Hall"
+     m_sCallsignShort "Hall"
+     m_sCallsignUpperCase "HALL"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F8422B74}" {
+     m_sCallsign "Leib"
+     m_sCallsignShort "Leib"
+     m_sCallsignUpperCase "LEIB"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F86F7987}" {
+     m_sCallsign "Ferl"
+     m_sCallsignShort ""\
+     "Ferl"
+     m_sCallsignUpperCase ""\
+     "FERL"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F9B679AC}" {
+     m_sCallsign "Mürz"
+     m_sCallsignShort "Mürz"
+     m_sCallsignUpperCase "MÜRZ"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51F9EC816F}" {
+     m_sCallsign "Bern"
+     m_sCallsignShort "Bern"
+     m_sCallsignUpperCase "BERN"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FB0C4025}" {
+     m_sCallsign "Zug"
+     m_sCallsignShort "Zug"
+     m_sCallsignUpperCase "ZUG"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FB5F0A46}" {
+     m_sCallsign "Reith"
+     m_sCallsignShort "Reith"
+     m_sCallsignUpperCase "REITH"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FB692754}" {
+     m_sCallsign "Worms"
+     m_sCallsignShort "Worms"
+     m_sCallsignUpperCase "WORMS"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FCBFEF3A}" {
+     m_sCallsign "Lahn"
+     m_sCallsignShort "Lahn"
+     m_sCallsignUpperCase "LAHN"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FCCE600C}" {
+     m_sCallsign "Brig"
+     m_sCallsignShort "Brig"
+     m_sCallsignUpperCase "BRIG"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FC108F4C}" {
+     m_sCallsign "Rapp"
+     m_sCallsignShort "Rapp"
+     m_sCallsignUpperCase "RAPP"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FC2480BF}" {
+     m_sCallsign "Winter"
+     m_sCallsignShort "Winter"
+     m_sCallsignUpperCase "WINTER"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC51FC4D4526}" {
+     m_sCallsign "Biel"
+     m_sCallsignShort "Biel"
+     m_sCallsignUpperCase "BIEL"
+    }
+    SCR_MilitaryBaseCallsign "{5EA8BC5364C62040}" {
+     m_sCallsign "Genf"
+     m_sCallsignShort "Genf"
+     m_sCallsignUpperCase "GENF"
+    }
+   }
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
-   FactionColor 0.561 0.071 0.071 1
+   FactionColor 0 0.502 0.125 1
    UIInfo SCR_FactionUIInfo "{5570936866E0AD08}" {
-    Name "USSR"
-    Icon "{40B12B0DF911B856}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_USSR.edds"
-    m_sNameUpper "USSR"
+    Name "FIA"
+    Icon "{FB266CDD4502D60B}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_Fia.edds"
+    m_sNameUpper "FIA"
    }
    m_OutlineFactionColor 0.502 0 0 1
-   m_sFactionFlag "{50824EB9F2C215AB}UI/Textures/Flags/USSR-flag-base-3it.edds"
-   m_FactionFlagMaterial "{B47B52D9DA68905D}Assets/Props/Fabric/Flags/Data/Flag_1_2_SovietArmy.emat"
+   m_sFactionFlag "{B784E694BA4A7D40}UI/Textures/Flags/Everon-flag-base-3it.edds"
+   m_FactionFlagMaterial "{77300AF5F8A8B2A2}Assets/Props/Fabric/Flags/Data/Flag_2_3_Everon.emat"
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
      m_aEntityEntryList {
@@ -870,31 +1174,5 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
    m_sLoadoutResource "{828B0DD9661E1456}Prefabs/Characters/Campaign/Final/CPR_US_Player_Sniper.et"
    m_sAffiliatedFaction "US"
   }
- }
-}
-$grp DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01.et" {
- {
-  coords 5513.298 95.551 6091.646
-  angleX -89.96
-  angleY 121.122
-  angleZ 180
- }
- {
-  coords 7552.569 82.731 5505.062
-  angleX -89.972
-  angleY 160.279
-  angleZ -180
- }
- {
-  coords 7547.042 82.758 5501.631
-  angleX -89.98
-  angleY 130.252
-  angleZ 180
- }
- {
-  coords 7562.955 82.784 5493.819
-  angleX -89.98
-  angleY -79.813
-  angleZ 180
  }
 }
