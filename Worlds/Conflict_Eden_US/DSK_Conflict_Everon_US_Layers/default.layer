@@ -105,17 +105,45 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
     m_aCompanyNames {
      SCR_CallsignInfo "{55CCB792CD021D5C}" {
-      m_sCallsign "Company_A"
+      m_sCallsign "DSK"
+     }
+     SCR_CallsignInfo "{55CCB792CCD598D3}" {
+      m_sCallsign "DSK"
+     }
+     SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+      m_sCallsign "DSK"
+     }
+     SCR_CallsignInfo "{55CCB792CCB4D441}" {
+      m_sCallsign "DSK"
+     }
+     SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+      m_sCallsign "DSK"
      }
     }
     m_aPlatoonNames {
      SCR_CallsignInfo "{55CCB792CE6E998D}" {
-      m_sCallsign "Platoon_1"
+      m_sCallsign "Infanterie"
+     }
+     SCR_CallsignInfo "{55CCB792CE18FB44}" {
+      m_sCallsign "Transport"
+     }
+     SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+     }
+     SCR_CallsignInfo "{55CCB792CE2A44BD}" {
      }
     }
     m_aSquadNames {
      SCR_CallsignInfo "{55CCB792D10AD8F4}" {
-      m_sCallsign "Squad 1"
+      m_sCallsign "ALPHA"
+     }
+     SCR_CallsignInfo "{55CCB792D13759D8}" {
+      m_sCallsign "BRAVO"
+     }
+     SCR_CallsignInfo "{55CCB792D1218E95}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+      m_sCallsign ""
      }
     }
    }
@@ -1171,25 +1199,7 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
   SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
    m_sLoadoutResource "{305087F7627D5B0B}Prefabs/Characters/Campaign/Final/CPR_USSR_Player.et"
   }
-  SCR_FactionPlayerLoadout "{5EE0FA11BF78EF03}" {
-   m_sLoadoutName "US Grenadier"
-   m_sLoadoutResource "{DCCE76ECB95F5025}Prefabs/Characters/Campaign/Final/CPR_US_Player_Grenadier.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{5EE0FA11A3BACB4C}" {
-   m_sLoadoutName "US AT"
-   m_sLoadoutResource "{69024316ECB38005}Prefabs/Characters/Campaign/Final/CPR_US_Player_AT.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{5EE0FA11A4547FC1}" {
-   m_sLoadoutName "US Medic"
-   m_sLoadoutResource "{35F704771552BAF1}Prefabs/Characters/Campaign/Final/CPR_US_Player_Medic.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{5EE0FA11A6D00E35}" {
-   m_sLoadoutName "US Sniper"
-   m_sLoadoutResource "{828B0DD9661E1456}Prefabs/Characters/Campaign/Final/CPR_US_Player_Sniper.et"
-   m_sAffiliatedFaction "US"
+  SCR_FactionPlayerLoadout "{61A053DE9B6AC9BB}" {
   }
  }
 }

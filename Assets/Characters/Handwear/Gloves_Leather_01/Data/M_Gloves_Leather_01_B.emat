@@ -1,0 +1,5 @@
+MatPBRBasic {
+ MetalnessScale 0
+ BCRMap "{E25B0BC0B1DBA45B}Assets/Characters/Handwear/Gloves_Leather_01/Data/Glove_Leather_01_BCR.edds"
+ NMOMap "{DA83B05268ACF6C5}Assets/Characters/Handwear/Gloves_Leather_01/Data/Glove_Leather_01_NMO.edds"
+}
