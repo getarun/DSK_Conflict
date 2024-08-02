@@ -1,0 +1,333 @@
+GenericEntity : "{0344105EB83FCBE3}PrefabsEditable/Auto/Props/Naval/E_FishingNet_02.et" {
+ coords 7537.433 166.838 4212.692
+}
+SCR_DestructibleEntity : "{048330550930E48E}PrefabsEditable/Auto/Structures/Civilian/MessageBoard/E_MessageBoard_01.et" {
+ coords 7513.903 166.8 4187.338
+}
+GenericEntity : "{087460535B1BAC83}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Large_Top_US.et" {
+ coords 7580.963 167.475 4191.359
+ angleY -142.708
+}
+GenericEntity : "{0A2CC2C9BE0A4CB2}PrefabsEditable/Auto/Props/Industrial/Repair/E_GasWelder_01.et" {
+ coords 7563.949 166.844 4201.375
+ angleY -153.652
+}
+$grp GenericEntity : "{1185F611B32F4261}PrefabsEditable/Auto/Props/Furniture/E_Armchair_01.et" {
+ {
+  coords 7585.672 166.829 4186.913
+  angleY -105.97
+ }
+ {
+  coords 7584.4 166.795 4188.559
+  angleY -129.433
+ }
+}
+SCR_DestructibleEntity : "{152E0513F396DAB9}PrefabLibrary/Props/Civilian/Garden/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
+ coords 7577.969 168.019 4176.824
+ angleY -28.357
+}
+GenericEntity : "{1A7D9201C2194A16}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V4.et" {
+ coords 7530.128 166.844 4179.373
+}
+GenericEntity : "{1A8BE2D0874012A8}PrefabsEditable/Auto/Props/Industrial/E_Lathe_01.et" {
+ coords 7558.468 166.98 4174.376
+ angleY -75.232
+}
+GenericEntity : "{1C2CDDF664813C72}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Tent_US.et" {
+ coords 7514.267 166.844 4192.078
+ angleY -178.102
+}
+SCR_DestructibleEntity : "{1D2D308D1325CAA4}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_Tagetes_yellow.et" {
+ coords 7573.049 166.959 4174.212
+ angleY 38.029
+}
+SCR_DestructibleEntity : "{258CB296E9484AAA}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_octa_Tagetes_yellow.et" {
+ coords 7575.277 167.148 4172.969
+ angleY 37.845
+}
+GenericEntity : "{2A7C1C33E40D8D28}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_AmmoCache_US.et" {
+ coords 7581.735 166.525 4195.471
+}
+GenericEntity : "{2C5E97017A80BCBC}PrefabsEditable/Auto/Props/Furniture/E_Cupboard_01_F.et" {
+ coords 7537.788 167.035 4185.889
+ angleY 15.461
+}
+SCR_DestructibleEntity : "{2F3B772F3FF94C7F}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_red.et" {
+ coords 7578.456 167.987 4177.083
+ angleX 0.892
+ angleZ 6.241
+}
+GenericEntity : "{31A0EFC73AC632FD}PrefabsEditable/Auto/Props/Industrial/E_BenchDrill_01_set.et" {
+ coords 7548.192 166.546 4210.375
+ angleY 17.545
+}
+GenericEntity : "{35D88208C66E4C7C}PrefabsEditable/Auto/Props/Industrial/Repair/E_HydraulicCarJack_01.et" {
+ coords 7553.438 166.844 4202.591
+}
+GenericEntity : "{39418BC3A98F5BD0}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V3_covered.et" {
+ coords 7528.755 166.844 4180.013
+}
+GenericEntity : "{397B34254E55F7B6}Prefabs/Props/Decorations/Flowerpots/FlowerpotPelargonia_01_white.et" {
+ coords 7571.904 166.844 4179.989
+}
+GenericEntity : "{3B9ADCAC2BE3FECD}PrefabLibrary/Props/Decoration/FlowerpotPelargonia_01/FlowerpotPelargonia_01_red.et" {
+ coords 7581.29 167.665 4179.595
+ angleX -2.63
+ angleZ 14.026
+}
+GenericEntity : "{3C347649E7779870}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_EquipmentBoxStacked_Cluttered_USSR_02.et" {
+ coords 7531.538 166.844 4178.431
+}
+$grp SCR_DestructibleBuildingEntity : "{3DDDA2AAA7B32209}PrefabsEditable/Auto/Structures/Agriculture/Greenhouse/E_Greenhouse_01.et" {
+ {
+  coords 7606.48 -0.381 4211.815
+  angleY -74.779
+  {
+   GenericEntity {
+    ID "55EE9070D3C97210"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7600.802 0.256 4201.772
+  angleY 15.247
+ }
+}
+GenericEntity : "{4625F3B6190477EC}PrefabsEditable/Auto/Structures/Military/CamoNets/FIA/E_CamoNet_Folded_FIA_01_V1.et" {
+ coords 7580.792 167.126 4193.802
+}
+$grp GenericEntity : "{4C6ED78C7038519C}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Garbage_Vehicle_02.et" {
+ {
+  coords 7569.06 166.702 4204.861
+ }
+ {
+  coords 7561.947 166.893 4204.787
+ }
+}
+SCR_DestructibleEntity : "{5016758FCF916268}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_tagetes_base.et" {
+ coords 7577.503 168.659 4177.937
+}
+$grp GenericEntity : "{5167EC15616ED965}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/DestructionEntities/E_CardboardBoxStack_01_CompositionDestruction.et" {
+ {
+  coords 7536.988 166.597 4215.281
+ }
+ {
+  coords 7541.884 166.367 4213.811
+ }
+ {
+  coords 7538.482 166.723 4215.061
+ }
+ {
+  coords 7535.99 166.912 4215.121
+ }
+ {
+  coords 7540.381 166.357 4214.448
+ }
+}
+GenericEntity : "{563CC733F7F672B4}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_AmmoCache_Soviet.et" {
+ coords 7578.862 166.525 4195.463
+}
+SCR_DestructibleEntity : "{56DF2B46C647163E}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_begonia_pink.et" {
+ coords 7583.626 167.021 4170.621
+ angleY -21.008
+}
+GenericEntity : "{5D631AC50365E917}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_CanvasCover_Cluttered_US_02.et" {
+ coords 7516.084 166.843 4258.213
+ angleY 16.278
+}
+GenericEntity : "{5F1E4196E3D4C843}PrefabsEditable/Auto/Props/Military/Antennas/E_Antenna_R161_01.et" {
+ coords 7563.305 166.668 4174.598
+}
+$grp GenericEntity : "{63051039C3049FED}PrefabsEditable/Auto/Props/Industrial/E_GasTank_01_red.et" {
+ {
+  coords 7540.589 166.769 4210.789
+ }
+ {
+  coords 7525.99 166.843 4181.588
+ }
+}
+GenericEntity : "{6383F112D0B33103}PrefabsEditable/Auto/Structures/Military/Camps/Canvas_Covers/Soviet/E_CanvasCover_Large_Soviet.et" {
+ coords 7551.597 166.843 4208.475
+ angleY -74.759
+}
+$grp SCR_DestructibleEntity : "{64C3A8C71F0B6B92}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotFlowers_01/E_FlowerpotFlowers_01_tagetes_yellow.et" {
+ {
+  coords 7577.049 168.001 4179.162
+ }
+ {
+  coords 7577.019 168.056 4178.024
+ }
+}
+$grp SCR_DestructibleEntity : "{6D45E070DAFF2F67}PrefabLibrary/Props/Civilian/Garden/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_pink.et" {
+ {
+  coords 7577.357 168.024 4177.253
+  angleY -10.24
+ }
+ {
+  coords 7578.417 168.046 4179.395
+  angleY -83.543
+ }
+}
+SCR_DestructibleEntity : "{70555EC065F8935D}PrefabsEditable/Auto/Props/Civilian/PicnicTable/E_PicnicTable_01.et" {
+ coords 7579.63 166.757 4188.763
+}
+$grp GenericEntity : "{70FB434FE0468EB4}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barrel_Filled_02.et" {
+ {
+  coords 7541.288 166.844 4192.823
+ }
+ {
+  coords 7543.774 166.844 4190.544
+ }
+ {
+  coords 7540.233 166.844 4191.899
+ }
+}
+GenericEntity : "{7394E0251880F29A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_FIA_01.et" {
+ coords 7594.126 168.881 4208.963
+ angleY -56.8
+}
+SCR_DestructibleEntity : "{750B424306CE40F7}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_octa_begonia_red.et" {
+ coords 7574.759 166.832 4186.009
+}
+GenericEntity : "{7DD1C2F10FEBCD4F}PrefabsEditable/Auto/Props/Furniture/E_Armchair_02.et" {
+ coords 7583.321 166.756 4189.485
+ angleY -146.692
+}
+GenericEntity : "{7E08585422278B0A}Prefabs/Props/Decorations/Flowerpots/FlowerpotPelargonia_01_red_v2.et" {
+ coords 7576.072 167.717 4180.831
+}
+SCR_DestructibleEntity : "{7FBBCC13B2624643}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_begonia_red.et" {
+ coords 7584.061 167.157 4179.504
+ angleY -88.22
+}
+SCR_DestructibleBuildingEntity : "{83779C3F3EB216D0}PrefabsEditable/Auto/Structures/Infrastructure/Naval/Davits/E_Davit_01.et" {
+ coords 7541.753 0 4209.583
+ angleY -143.452
+}
+GenericEntity : "{8405D081018C4DCF}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V5_covered.et" {
+ coords 7527.377 166.844 4180.502
+}
+SCR_DestructibleEntity : "{891C999C0AA4D5CE}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_Tagetes_orange.et" {
+ coords 7584.378 167.238 4175.163
+ angleY -89.046
+}
+GenericEntity : "{8CE46962100859FF}PrefabsEditable/Auto/Structures/Military/Camps/Canvas_Covers/US/E_CanvasCover_Small_A_US.et" {
+ coords 7541.109 167.066 4192.033
+ angleY -73.494
+}
+GenericEntity : "{8D099930585C73E4}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Ivan.et" {
+ coords 7533.404 167.235 4215.375
+ angleY -35.191
+}
+GenericEntity : "{8FFE23520934243E}PrefabsEditable/Auto/Props/Civilian/E_Coffin_01.et" {
+ coords 7577.497 168.058 4178.407
+}
+GenericEntity : "{976C24AE1673E2D2}PrefabsEditable/Auto/Props/Military/E_FieldKitchenTrailerUSSR_01.et" {
+ coords 7536.569 166.844 4191.854
+ angleY 164.38
+}
+GenericEntity : "{984D8E08030E5A24}PrefabsEditable/Auto/Props/Furniture/E_Armchair_03.et" {
+ coords 7585.784 166.844 4183.973
+ angleY -84.426
+}
+SCR_DestructibleEntity : "{A2E2C428D5018DCA}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_short/FlowerpotStreet_01_rect_short_begonia_pink.et" {
+ coords 7584.867 167.199 4177.197
+ angleZ 11.482
+}
+GenericEntity : "{A34C0EFF26F5B8EE}PrefabsEditable/Auto/Props/Naval/E_FishingRope_01.et" {
+ coords 7538.366 166.385 4215.152
+}
+GenericEntity : "{A41F1EC4E72108AA}PrefabsEditable/Auto/Props/Wrecks/E_BTR70_wreck.et" {
+ coords 7584.818 166.56 4192.444
+ angleY -53.813
+}
+SCR_DestructibleEntity : "{A7FC76ADAD067235}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_tagetes_orange.et" {
+ coords 7578.749 168.044 4178.223
+}
+GenericEntity : "{A8063EBC77B44647}PrefabsEditable/Auto/Props/Commercial/E_CoffeeGrinderShop_01.et" {
+ coords 7539.345 167.535 4189.444
+ angleY -165.636
+}
+GenericEntity : "{ADDB49EB31BCF774}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_BarbedCoil_Cluttered_USSR_01.et" {
+ coords 7541.63 0 4191.955
+}
+SCR_DestructibleEntity : "{B6F525C7FCAE31EB}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_short_begonia_pink.et" {
+ coords 7569.104 166.844 4186.575
+}
+GenericEntity : "{C24CF278EDDF1944}PrefabsEditable/Auto/Props/Furniture/E_Bed_01.et" {
+ coords 7541.712 167.035 4188.526
+ angleY -72.627
+}
+SCR_DestructibleEntity : "{CD28ED1CE3BBDFFA}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_octa_begonia_white.et" {
+ coords 7578.251 167.05 4170.521
+}
+GenericEntity : "{D68CCE30375673B2}PrefabsEditable/Auto/Props/Industrial/AirCompressor_01/E_AirCompressor_01.et" {
+ coords 7556.235 166.843 4186.263
+}
+$grp GenericEntity : "{E1721BBF5A1ABD24}PrefabsEditable/Auto/Props/Military/Fortification/E_BarbedTape_Coil.et" {
+ {
+  coords 7542.811 0 4191.687
+ }
+ {
+  coords 7540.147 0.001 4193.061
+ }
+}
+GenericEntity : "{E2B6B200FF6C86A3}PrefabsEditable/Auto/Props/Garbage/Generic/E_Litter_01_small.et" {
+ coords 7559.414 166.844 4175.756
+}
+GenericEntity : "{E36A18CECA75E995}PrefabsEditable/Auto/Props/Construction/GarbageStack_01/E_GarbageStack_01_Long.et" {
+ coords 7570.196 166.87 4167.244
+ angleY 16.451
+}
+GenericEntity : "{E49C1F889EFE862C}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_EquipmentBoxStacked_Cluttered_USSR_04.et" {
+ coords 7525.913 166.844 4180.544
+}
+GenericEntity : "{E576725E0B8ECB94}PrefabsEditable/Auto/Props/Military/WaterTanks/E_MobileWaterTank_US_01.et" {
+ coords 7526.598 166.561 4185.875
+ angleY -166.796
+}
+GenericEntity : "{E6D85CA7B4DA5C88}PrefabsEditable/Auto/Props/Naval/E_FishingNet_03.et" {
+ coords 7540.889 166.563 4212.347
+}
+SCR_DestructibleBuildingEntity : "{EF23A8DF827699FE}PrefabsEditable/Auto/Structures/Infrastructure/Naval/Davits/E_Davit_02.et" {
+ coords 7566.029 -0.006 4201.108
+ angleY -136.906
+}
+SCR_DestructibleEntity : "{F1D674AF251016A6}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_octa_begonia_pink.et" {
+ coords 7572.281 166.844 4185.799
+}
+GenericEntity : "{F4371524CB95C681}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Folded_US.et" {
+ coords 7580.212 166.586 4194.158
+ angleY 16.062
+}
+GenericEntity : "{F441AC8B8D5A0088}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barrel_ToolRack_01.et" {
+ coords 7554.836 166.828 4205.917
+ angleY -158.427
+}
+GenericEntity : "{F5C2812D5B8C7FB4}PrefabsEditable/Auto/Props/Civilian/E_Ashtray_01_Full_clear.et" {
+ coords 7582.757 167.401 4189.521
+}
+$grp GenericEntity : "{F922F6F1895F41E4}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Folded_Soviet.et" {
+ {
+  coords 7587.927 166.795 4188.563
+ }
+ {
+  coords 7580.858 166.481 4194.104
+  angleY 13.855
+ }
+ {
+  coords 7581.587 166.588 4194.122
+ }
+}
+StaticModelEntity : "{FCF1CE73B4B48DA4}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Cabinet_Food_US_01.et" {
+ coords 7550.056 166.844 4187.816
+ angleY 16.198
+ {
+  GenericEntity {
+   ID "5CB0F58A7BB4273E"
+   coords 0.36 0.908 -0.058
+   angleY 89.382
+  }
+ }
+}
