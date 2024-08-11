@@ -125,6 +125,10 @@ $grp GenericEntity : "{5167EC15616ED965}PrefabsEditable/Auto/Compositions/Misc/C
   coords 7540.381 166.357 4214.448
  }
 }
+SCR_DestructibleBuildingEntity : "{560615B527637254}Prefabs/DSK_Sign_Yuri_01.et" {
+ coords 7577.53 168.068 4179.159
+ angleX 39.249
+}
 GenericEntity : "{563CC733F7F672B4}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_AmmoCache_Soviet.et" {
  coords 7578.862 166.525 4195.463
 }
@@ -182,10 +186,6 @@ $grp GenericEntity : "{70FB434FE0468EB4}PrefabsEditable/Auto/Compositions/Misc/S
  {
   coords 7540.233 166.844 4191.899
  }
-}
-GenericEntity : "{7394E0251880F29A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_FIA_01.et" {
- coords 7594.126 168.881 4208.963
- angleY -56.8
 }
 SCR_DestructibleEntity : "{750B424306CE40F7}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_octa_begonia_red.et" {
  coords 7574.759 166.832 4186.009

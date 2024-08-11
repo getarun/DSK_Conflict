@@ -70,13 +70,29 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 125
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "US"
+   }
   }
   coords 7518.644 166.752 4265.595
   angleY 13.665
   {
    GenericEntity {
     ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "US"
+     }
+    }
     coords -17.763 -0.992 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "US"
+     }
+    }
    }
   }
  }
@@ -2173,7 +2189,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
-       m_iGroupMultiplier 2
       }
      }
      coords 25.388 -16.912 -3.202

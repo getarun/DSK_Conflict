@@ -1,0 +1,64 @@
+SCR_FiringRangeTarget : "{52601275BAC9EF64}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_30s.et" {
+ coords 7324.066 169.881 4222.599
+ angleY 96.648
+}
+$grp GenericEntity : "{5EF3A8DBBBA9F859}PrefabsEditable/Auto/Props/Military/Training/Obstacles/E_ObstacleWindow_01.et" {
+ {
+  coords 7325.069 169.952 4229.909
+  angleY -85.341
+ }
+ {
+  coords 7323.867 169.914 4215.475
+  angleY -85.341
+ }
+}
+$grp SCR_FiringRangeTarget : "{96665DE667E8F908}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_01.et" {
+ {
+  coords 7320.657 169.764 4219.484
+  angleY 95.423
+ }
+ {
+  coords 7317.391 169.391 4224.335
+  angleY 95.423
+ }
+ {
+  coords 7307.545 166.568 4237.974
+  angleY 95.423
+ }
+ {
+  coords 7307.451 167.39 4215.574
+  angleY 95.423
+ }
+ {
+  coords 7284.219 163.542 4219.55
+  angleY 95.423
+ }
+ {
+  coords 7292.27 164.726 4235.52
+  angleY 95.423
+ }
+ {
+  coords 7272.333 159.903 4241.792
+  angleY 95.423
+ }
+ {
+  coords 7261.654 159.462 4222.472
+  angleY 95.423
+ }
+ {
+  coords 7300.241 166.104 4205.645
+  angleY 95.423
+ }
+ {
+  coords 7272.911 162.786 4194.286
+  angleY 95.423
+ }
+ {
+  coords 7270.148 162.542 4204.269
+  angleY 95.423
+ }
+ {
+  coords 7287.675 164.945 4176.098
+  angleY 95.423
+ }
+}

@@ -23,8 +23,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords -179.356 49.703 -62.542
@@ -69,8 +67,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords 261.329 17.713 -34.628
@@ -117,8 +113,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords 211.883 8.997 -106.586
@@ -161,8 +155,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords 139.267 -5.251 -344.776
@@ -207,8 +199,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords -212.323 -13.94 -54.026
@@ -253,8 +243,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords -256.299 -42.727 -320.895
@@ -299,8 +287,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords 470.978 -38.639 27.003
@@ -345,8 +331,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_iRespawnPeriod 600
        m_fAILimitThreshold 0.66
-       m_iRespawnWaves -1
-       m_iGroupMultiplier 3
       }
      }
      coords 112.828 39.703 -181.688

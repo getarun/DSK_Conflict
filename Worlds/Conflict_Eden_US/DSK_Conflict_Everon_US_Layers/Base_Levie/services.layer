@@ -1,0 +1,74 @@
+GenericEntity : "{0ABB1556F320F0F9}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Shelter_Arsenal_US_02.et" {
+ coords 7526.645 166.965 4253.566
+ angleY 103.036
+ {
+  GenericEntity {
+   ID "5D371ACBFA947460"
+   components {
+    SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+     m_aConsumers {
+      SCR_ResourceConsumer "{5E5AE189C57A9FD7}" {
+       m_fResourceRange 50
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{543C31BC05F032B6}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_US_01.et" {
+ coords 7593.807 166.351 4250.896
+ angleY -108.039
+}
+GenericEntity : "{66EF21B64FE47FD7}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Shelter_Arsenal_US_01.et" {
+ coords 7525.584 166.953 4249.069
+ angleX -0.014
+ angleY 103.196
+ angleZ -0.275
+ {
+  GenericEntity {
+   ID "5D371ACBE97B9E1F"
+   components {
+    SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+     m_aConsumers {
+      SCR_ResourceConsumer "{5E5AE189C57A9FD7}" {
+       m_fResourceRange 50
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et" {
+ {
+  coords 7547.98 166.844 4298.024
+  angleY 105.8
+ }
+ {
+  coords 7550.851 166.855 4310.414
+  angleY 105.8
+ }
+}
+GenericEntity : "{BA1D19C4EAE3284B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Storage_Arsenal_US_01.et" {
+ coords 7526.688 166.88 4245.149
+ angleY 12.354
+}
+GenericEntity : "{C0B1ABD67607623A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_US_01.et" {
+ coords 7573.429 166.156 4253.423
+ angleY -165.512
+}
+$grp GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.et" {
+ {
+  coords 7462.58 164.562 4306.82
+  angleY 15.984
+ }
+ {
+  coords 7472.315 164.614 4337.693
+  angleY 18.126
+ }
+}
+GenericEntity : "{D6492D245627A765}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Storage_Arsenal_US_02.et" {
+ coords 7530.93 166.844 4260.04
+ angleY 15.047
+}

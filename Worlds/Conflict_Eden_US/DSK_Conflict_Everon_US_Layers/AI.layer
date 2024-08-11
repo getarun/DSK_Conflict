@@ -6075,7 +6075,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
-    m_iGroupMultiplier 3
    }
   }
   coords 9184.932 10.519 9351.827

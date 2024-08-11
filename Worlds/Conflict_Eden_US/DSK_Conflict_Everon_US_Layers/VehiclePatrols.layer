@@ -8,7 +8,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52
     }
-    m_bIsVehiclePatrol 1
    }
    Hierarchy "{61996C0B003EF44A}" {
    }
@@ -19,9 +18,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol2 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_BTR
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 0.263 0.872 13.362
@@ -58,7 +55,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 5174.091 11.486 12424.747
@@ -67,9 +63,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol3 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords -9.665 2.123 5.692
@@ -102,7 +96,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 9850.229 7.399 1608.475
@@ -111,9 +104,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol4 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_BTR
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords -4.626 -0.179 -9.066
@@ -150,7 +141,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
    Hierarchy "{61996C0B003EF44A}" {
    }
@@ -161,9 +151,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol5 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords -2.516 0.104 15.124
@@ -196,7 +184,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 29 39 35 52
     }
-    m_bIsVehiclePatrol 1
    }
    Hierarchy "{61996C0B003EF44A}" {
    }
@@ -207,9 +194,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol6 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_BTR
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 10.981 0 5.959
@@ -242,7 +227,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 4309.636 1.124 9515.46
@@ -251,9 +235,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol7 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords -12.978 0 18.655
@@ -286,7 +268,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 6858.016 135.718 6193.586
@@ -295,9 +276,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 6.792 0.544 -11.967
@@ -330,7 +309,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52
     }
-    m_bIsVehiclePatrol 1
    }
    Hierarchy "{61996C0B003EF44A}" {
    }
@@ -341,9 +319,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_BTR
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 0.357 0 16.816
@@ -384,7 +360,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 5468.678 87.239 5280.872
@@ -393,9 +368,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol10 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 6.792 -0.341 -11.967
@@ -428,7 +401,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 3430.666 119.313 5008.668
@@ -437,9 +409,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol11 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 9.258 -0.071 -10.281
@@ -472,7 +442,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 3283.672 138.344 5636.506
@@ -481,9 +450,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol12 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 6.239 1.187 -12.346
@@ -513,7 +480,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 4999.458 166.332 7232.954
@@ -522,9 +488,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol13 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 6.792 -0.888 -11.967
@@ -565,7 +529,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52
     }
-    m_bIsVehiclePatrol 1
    }
    Hierarchy "{61996C0B003EF44A}" {
    }
@@ -576,9 +539,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol14 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_BTR
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 6.788 1.095 13.052
@@ -615,7 +576,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
     m_aExcludedEditableEntityLabels {
      51 52 26
     }
-    m_bIsVehiclePatrol 1
    }
   }
   coords 7329.932 138.186 2236.498
@@ -624,9 +584,7 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
    GenericEntity AmbientPatrol15 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_UAZ_ARMED
-      m_bIsVehicleGroup 1
-      m_iGroupMultiplier 5
+      m_eGroupType TEAM_SENTRY
      }
     }
     coords 6.792 -0.505 -11.967

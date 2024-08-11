@@ -20,7 +20,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
   }
  }
  coords 4772.179 26.323 10658.781
- LimitOfSpawnedAIAgents 2000
+ LimitOfSpawnedAIAgents 1000
  "Max number of cached BTs" 100
  m_iActiveAILimit 1000
 }
@@ -40,6 +40,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
    m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_iPlayableGroupFrequencyOffset 1000
   }
   SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
    m_iKillFeedType FULL
@@ -68,7 +71,8 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
  }
  coords 26.726 0 10.962
- m_iControlPointsThreshold 61
+ m_iControlPointsThreshold 58
+ m_fVictoryTimer 60
  m_iSuppliesReplenishThreshold 200
  m_iQuickSuppliesReplenishThreshold 40
  m_fQuickSuppliesReplenishMultiplier 2
@@ -101,7 +105,7 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
     Name "NATO"
     Description "discord.dsk-blitzregiment.de"
    }
-   m_sFactionFlag "{241DCED38AC0BAFA}DSK_clean.edds"
+   m_sFactionFlag "{3F42F2B948D42895}DSK_faction_flag.edds"
    m_FactionFlagMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
    m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
     m_aCompanyNames {
@@ -146,6 +150,62 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
      SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
       m_sCallsign ""
      }
+    }
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{6210914E04E687D9}" {
+     m_sGroupName "HQ /  GM"
+     m_sGroupDescription "HQ organization and GM"
+     m_iGroupSize 2
+     m_iRadioFrequency 50000
+    }
+    SCR_GroupPreset "{6210914ECCE49904}" {
+     m_sGroupName "Transpo"
+     m_sGroupDescription "Transport & Logistics"
+     m_iGroupSize 4
+     m_iRadioFrequency 45000
+    }
+    SCR_GroupPreset "{621509415E27AF93}" {
+     m_sGroupName "ALPHA"
+     m_sGroupDescription "ALPHA"
+     m_iGroupSize 10
+     m_iRadioFrequency 38000
+    }
+    SCR_GroupPreset "{621509415E733C75}" {
+     m_sGroupName "BRAVO"
+     m_sGroupDescription "BRAVO"
+     m_iGroupSize 10
+     m_iRadioFrequency 39000
+    }
+    SCR_GroupPreset "{62150941599A5B8C}" {
+     m_sGroupName "CHARLIE"
+     m_sGroupDescription "CHARLIE"
+     m_iGroupSize 10
+     m_iRadioFrequency 40000
+    }
+    SCR_GroupPreset "{621509415981E260}" {
+     m_sGroupName "DELTA"
+     m_sGroupDescription "DELTA"
+     m_iGroupSize 10
+     m_iRadioFrequency 41000
+    }
+    SCR_GroupPreset "{6215094159F7BE0B}" {
+     m_sGroupName "ECHO"
+     m_sGroupDescription "ECHO"
+     m_iGroupSize 10
+     m_iRadioFrequency 42000
+    }
+    SCR_GroupPreset "{62150941F85A228F}" {
+     m_sGroupName "FOXTROTT"
+     m_sGroupDescription "FOXTROTT"
+     m_iGroupSize 10
+     m_iRadioFrequency 43000
+    }
+    SCR_GroupPreset "{621509418EE8B192}" {
+     m_sGroupName "GOLF"
+     m_sGroupDescription "GOLF"
+     m_iGroupSize 10
+     m_iRadioFrequency 44000
     }
    }
    m_aEntityCatalogs {
