@@ -76,10 +76,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  m_iSuppliesReplenishThreshold 200
  m_iQuickSuppliesReplenishThreshold 40
  m_fQuickSuppliesReplenishMultiplier 2
- m_iRegularSuppliesIncome 5
- m_iRegularSuppliesIncomeExtra 5
- m_iMinStartingSupplies 25
- m_iMaxStartingSupplies 175
  m_iSuicideRespawnDelay 60
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
@@ -124,6 +120,15 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
      SCR_CallsignInfo "{55CCB792CC5F08F3}" {
       m_sCallsign "DSK"
      }
+     SCR_CallsignInfo "{55CCB792CC49B7DB}" {
+      m_sCallsign "#AR-Callsign_US_Company_F"
+     }
+     SCR_CallsignInfo "{55CCB792CC711A37}" {
+      m_sCallsign "#AR-Callsign_US_Company_G"
+     }
+     SCR_CallsignInfo "{55CCB792CC33211C}" {
+      m_sCallsign "#AR-Callsign_US_Company_H"
+     }
     }
     m_aPlatoonNames {
      SCR_CallsignInfo "{55CCB792CE6E998D}" {
@@ -145,70 +150,14 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
      SCR_CallsignInfo "{55CCB792D13759D8}" {
      }
      SCR_CallsignInfo "{55CCB792D1218E95}" {
-      m_sCallsign ""
      }
      SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
-      m_sCallsign ""
      }
-    }
-   }
-   m_aPredefinedGroups {
-    SCR_GroupPreset "{6210914E04E687D9}" {
-     m_sGroupName "HQ /  GM"
-     m_sGroupDescription "HQ organization and GM"
-     m_iGroupSize 2
-     m_iRadioFrequency 50000
-    }
-    SCR_GroupPreset "{6210914ECCE49904}" {
-     m_sGroupName "Transpo"
-     m_sGroupDescription "Transport & Logistics"
-     m_iGroupSize 4
-     m_iRadioFrequency 45000
-    }
-    SCR_GroupPreset "{621509415E27AF93}" {
-     m_sGroupName "ALPHA"
-     m_sGroupDescription "ALPHA"
-     m_iGroupSize 10
-     m_iRadioFrequency 38000
-    }
-    SCR_GroupPreset "{621509415E733C75}" {
-     m_sGroupName "BRAVO"
-     m_sGroupDescription "BRAVO"
-     m_iGroupSize 10
-     m_iRadioFrequency 39000
-    }
-    SCR_GroupPreset "{62150941599A5B8C}" {
-     m_sGroupName "CHARLIE"
-     m_sGroupDescription "CHARLIE"
-     m_iGroupSize 10
-     m_iRadioFrequency 40000
-    }
-    SCR_GroupPreset "{621509415981E260}" {
-     m_sGroupName "DELTA"
-     m_sGroupDescription "DELTA"
-     m_iGroupSize 10
-     m_iRadioFrequency 41000
-    }
-    SCR_GroupPreset "{6215094159F7BE0B}" {
-     m_sGroupName "ECHO"
-     m_sGroupDescription "ECHO"
-     m_iGroupSize 10
-     m_iRadioFrequency 42000
-    }
-    SCR_GroupPreset "{62150941F85A228F}" {
-     m_sGroupName "FOXTROTT"
-     m_sGroupDescription "FOXTROTT"
-     m_iGroupSize 10
-     m_iRadioFrequency 43000
-    }
-    SCR_GroupPreset "{621509418EE8B192}" {
-     m_sGroupName "GOLF"
-     m_sGroupDescription "GOLF"
-     m_iGroupSize 10
-     m_iRadioFrequency 44000
     }
    }
    m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" : "{B56E8B4D4B195559}Configs/EntityCatalog/US/Characters_EntityCatalog_US.conf" {
+    }
     SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{60569780DE4EE17A}" {
@@ -248,6 +197,10 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       SCR_EntityCatalogMultiListEntry "{5C9AD18D0588C053}" {
       }
      }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EE8B97CA50}" : "{4E70E7C4C2C17D4A}Configs/EntityCatalog/US/Groups_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalog "{5C68A0EEB7DB3E84}" : "{0E4B62F186F97C43}Configs/EntityCatalog/US/WeaponTripod_EntityCatalog_US.conf" {
     }
     SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
      m_aMultiLists {
@@ -689,6 +642,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
      }
     }
+    SCR_EntityCatalog "{5C9EDDD37394AD40}" : "{0BF36EFF9FFAF92B}Configs/EntityCatalog/US/SupplyContainerItems_EntityCatalog_US.conf" {
+    }
    }
    m_aBaseCallsigns {
     SCR_MilitaryBaseCallsign "{5C90D92F493E764B}" {
@@ -1070,7 +1025,47 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
      m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{60F6DBAB1F48211E}" {
+       m_sEntityPrefab "{50982796B32CBF15}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B828B2B57}" {
+       m_sEntityPrefab "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B82950FE8}" {
+       m_sEntityPrefab "{33B19F3D12CDDA74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_PL_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B810634A4}" {
+       m_sEntityPrefab "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B82A122A6}" {
+       m_sEntityPrefab "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B82D64D4C}" {
+       m_sEntityPrefab "{A0CD612B7770C18B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AMG_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B82CBACBF}" {
+       m_sEntityPrefab "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et"
+      }
       SCR_EntityCatalogEntry "{5C54C23B82FF632E}" {
+       m_sEntityPrefab "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B8110D709}" {
+       m_sEntityPrefab "{E553B736235BCB11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B815FC455}" {
+       m_sEntityPrefab "{149F12B6E75583AB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Medic_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B81608C17}" {
+       m_sEntityPrefab "{342D668BC934D359}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_RTO_Random.et"
+      }
+      SCR_EntityCatalogEntry "{5C54C23B813AAF3E}" {
+       m_sEntityPrefab "{E2453749C99515CD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Scout_Random.et"
+      }
+      SCR_EntityCatalogEntry "{6116BA75BA9C0BB7}" {
+       m_sEntityPrefab "{5F4A20C3B9068DF4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Sapper_Random.et"
+      }
+      SCR_EntityCatalogEntry "{6116B82A9D2C318D}" {
+       m_sEntityPrefab "{5888CE9C9AF05188}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Ammo_Random.et"
       }
      }
     }
@@ -1133,10 +1128,41 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
     SCR_EntityCatalogMultiList "{5C68A0EAB887A0C4}" {
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{5C54F92C5A81DFA5}" {
+       m_sEntityPrefab "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et"
        m_aEntityDataList {
         SCR_EntityCatalogEditorData "{6052F82B06AA6BAB}" {
         }
        }
+      }
+      SCR_EntityCatalogEntry "{5C54F92C597B95CC}" {
+       m_sEntityPrefab "{0ACD74AD27EEEE7D}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et"
+      }
+      SCR_EntityCatalogEntry "{611EBEA08331E63A}" {
+       m_sEntityPrefab "{F40CDA3D5A7B1CDF}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_LightFireTeam.et"
+      }
+      SCR_EntityCatalogEntry "{5C54F92C592D792E}" {
+       m_sEntityPrefab "{0A8A59C10F0B2D8B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Team_AT.et"
+      }
+      SCR_EntityCatalogEntry "{5C54F92C5950786A}" {
+       m_sEntityPrefab "{60E2D587BE5A9B43}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_MachineGunTeam.et"
+      }
+      SCR_EntityCatalogEntry "{611EBEA085A5B169}" {
+       m_sEntityPrefab "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et"
+      }
+      SCR_EntityCatalogEntry "{5C54F92C5945A9F5}" {
+       m_sEntityPrefab "{7A82440DCA7B9056}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_ReconTeam.et"
+      }
+      SCR_EntityCatalogEntry "{611EBEAD45E71B64}" {
+       m_sEntityPrefab "{BA8CA45F6B252004}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_PlatoonHQ.et"
+      }
+      SCR_EntityCatalogEntry "{611EBEAC15D4A633}" {
+       m_sEntityPrefab "{1A00EE432E398461}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_MedicalSection.et"
+      }
+      SCR_EntityCatalogEntry "{611EBEA082E8E004}" {
+       m_sEntityPrefab "{BE031B9F579DA1FC}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_AmmoTeam.et"
+      }
+      SCR_EntityCatalogEntry "{611EBEA084F8F459}" {
+       m_sEntityPrefab "{FCA76613163633F8}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sapper.et"
       }
      }
      m_aMultiLists {
@@ -1238,6 +1264,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
    m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
   }
+  SCR_Faction "{60DCF47AEF40BD72}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+  }
  }
  m_aRanks {
   SCR_RankIDCampaign "{5CB0777E83631136}" {
@@ -1289,8 +1317,17 @@ SCR_MapLocator {
  m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
  }
 }
+SCR_AIGroup : "{0A8A59C10F0B2D8B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Team_AT.et" {
+ coords 9702.101 12.624 1557.264
+}
+SCR_AIGroup : "{0ACD74AD27EEEE7D}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et" {
+ coords 9702.101 12.624 1547.439
+}
 SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
  coords 20.724 0 7.936
+}
+SCR_AIGroup : "{1A00EE432E398461}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_MedicalSection.et" {
+ coords 9702.101 12.624 1551.718
 }
 BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 27.209 0 10.918
@@ -1316,6 +1353,9 @@ BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/G
    FullyPreload 1
   }
  }
+}
+SCR_AIGroup : "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et" {
+ coords 9702.101 12.624 1556.382
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 0 0 0
