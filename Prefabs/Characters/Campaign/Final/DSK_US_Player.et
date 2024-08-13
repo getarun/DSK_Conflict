@@ -73,18 +73,6 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
       "{ADFC6B0C216056AF}Prefabs/Items/Equipment/Patches/GER_Patch.et"
      }
     }
-    ItemsInitConfigurationItem "{5538C040738A83D1}" {
-     PrefabsToSpawn {
-      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
-     TargetStorage ""
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{61F50E8A4A7C2DCF}" {
-    }
     ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
      TargetStorage ""
      TargetPurpose 64
@@ -97,6 +85,18 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      PrefabsToSpawn {
       "{EE8C73B70ED445B3}Prefabs/Items/Equipment/Nightvision/GPNVG18/GPNVG18_BatPack_Black.et"
      }
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61F50E8A4A7C2DCF}" {
     }
    }
   }

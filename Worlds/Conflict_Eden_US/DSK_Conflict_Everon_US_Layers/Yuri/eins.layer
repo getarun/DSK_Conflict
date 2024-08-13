@@ -1,3 +1,7 @@
+GenericEntity {
+ coords 7533.404 167.235 4215.375
+ angleY -35.191
+}
 GenericEntity : "{0344105EB83FCBE3}PrefabsEditable/Auto/Props/Naval/E_FishingNet_02.et" {
  coords 7537.433 166.838 4212.692
 }
@@ -215,10 +219,6 @@ SCR_DestructibleEntity : "{891C999C0AA4D5CE}PrefabsEditable/Auto/Props/Decoratio
 GenericEntity : "{8CE46962100859FF}PrefabsEditable/Auto/Structures/Military/Camps/Canvas_Covers/US/E_CanvasCover_Small_A_US.et" {
  coords 7541.109 167.066 4192.033
  angleY -73.494
-}
-GenericEntity : "{8D099930585C73E4}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Ivan.et" {
- coords 7533.404 167.235 4215.375
- angleY -35.191
 }
 GenericEntity : "{8FFE23520934243E}PrefabsEditable/Auto/Props/Civilian/E_Coffin_01.et" {
  coords 7577.497 168.058 4178.407
