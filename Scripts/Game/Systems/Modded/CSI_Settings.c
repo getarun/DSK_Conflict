@@ -21,7 +21,7 @@ class CSI_GameSettings : ModuleGameSettings
 	[Attribute("true")]
 	string rankVisible;
 
-	[Attribute("100")]
+	[Attribute("65")]
 	string squadRadarIconSize;
 
 	[Attribute("HEAD")]
