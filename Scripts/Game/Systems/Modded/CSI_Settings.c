@@ -27,7 +27,7 @@ class CSI_GameSettings : ModuleGameSettings
 	[Attribute("HEAD")]
 	string nametagsPosition;
 
-	[Attribute("500")]
+	[Attribute("995")]
 	string nametagsRange;
 
 	[Attribute("true")]

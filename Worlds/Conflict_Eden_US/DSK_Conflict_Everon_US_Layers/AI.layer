@@ -6083,7 +6083,9 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
+    m_iRespawnPeriod 5
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 5
    }
   }
   coords 7098.675 118.545 6007.515

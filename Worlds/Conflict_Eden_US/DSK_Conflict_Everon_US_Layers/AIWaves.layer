@@ -5,6 +5,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 7341.87 149.569 2085.96
@@ -31,9 +33,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 7428.82 153.129 4450.96
+  coords 7428.819 153.128 4450.96
   angleX -11.547
   angleY -2.961
   angleZ -9.151
@@ -57,6 +61,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 7297.96 29.661 7075.71
@@ -83,9 +89,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 7419.026 56.385 8117.571
+  coords 7419.026 11.887 8117.571
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -109,9 +117,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4103.6 62.479 7192.73
+  coords 4103.6 62.478 7192.73
   angleX -8.11
   angleY -2.674
   angleZ -12.063
@@ -136,9 +146,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 5312.24 128.774 6741.21
+  coords 5312.24 128.775 6741.21
   angleX 2.402
   angleY -2.177
   angleZ -15.564
@@ -163,9 +175,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4943.265 152.935 7501.512
+  coords 4943.265 152.936 7501.512
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -190,9 +204,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 1766.939 27.185 6046.521
+  coords 1766.939 27.186 6046.521
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -214,6 +230,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 1384.342 13.002 5453.884
@@ -238,9 +256,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4741.97 39.379 9009.73
+  coords 4741.97 39.378 9009.731
   angleX -13.532
   angleY -4.274
   angleZ 1.816
@@ -264,9 +284,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4860.12 23.395 9464.08
+  coords 4860.12 23.394 9464.08
   angleX -8.899
   angleY -4.506
   angleZ 4.188
@@ -290,9 +312,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4092.859 25.454 10300.653
+  coords 4092.859 25.454 10300.652
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -315,6 +339,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 4614.424 16.32 11307.502
@@ -340,9 +366,14 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
+   }
+   SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+    "faction affiliation" "USSR"
    }
   }
-  coords 5256.749 21.405 11802.335
+  coords 5256.749 21.404 11802.335
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -364,9 +395,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4388.396 10.673 11976.974
+  coords 4388.396 10.674 11976.975
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -388,6 +421,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 5484.78 33.061 10365
@@ -414,9 +449,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 5111.45 40.762 10666.2
+  coords 5111.45 40.764 10666.2
   angleX -9.23
   angleY -4.005
   angleZ -0.318
@@ -440,6 +477,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 5579.07 27.87 9820.21
@@ -464,9 +503,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 5948.78 199.091 7483.6
+  coords 5948.78 199.09 7483.6
   angleX -11.044
   angleY -5.189
   angleZ 10.612
@@ -490,6 +531,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 8723.45 8.265 645.346
@@ -516,9 +559,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 9905.842 19.178 1159.198
+  coords 9905.842 19.179 1159.198
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -541,9 +586,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 10374.396 30.526 1730.495
+  coords 10374.396 30.525 1730.495
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -566,9 +613,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 9586.494 89.832 2017.481
+  coords 9586.494 89.831 2017.481
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -591,9 +640,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 9164.119 111.188 797.326
+  coords 9164.118 111.189 797.326
   angleX 16.216
   angleY -4.027
   angleZ -2.84
@@ -617,9 +668,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 9539.45 145.466 788.098
+  coords 9539.45 145.465 788.098
   angleX -3.557
   angleY -2.798
   angleZ -10.44
@@ -643,6 +696,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 8849.84 214.725 3810.96
@@ -669,6 +724,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 5635.12 26.79 3890.94
@@ -696,9 +753,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4613.88 38.104 3939.42
+  coords 4613.879 38.104 3939.42
   angleX -8.609
   angleY -4.883
   angleZ 7.758
@@ -722,6 +781,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 3745.593 152.79 4270.05
@@ -748,6 +809,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 3019.3 92.193 4390.35
@@ -774,9 +837,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 2762.2 112.154 5727.45
+  coords 2762.2 112.155 5727.45
   angleX -8.518
   angleY -3.683
   angleZ -3.084
@@ -800,6 +865,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 2415.21 70.766 5137.03
@@ -826,9 +893,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 3899.87 6.783 9017.4
+  coords 3899.87 6.782 9017.4
   angleX -11.353
   angleY -3.394
   angleZ -5.596
@@ -852,6 +921,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 3881.81 8.248 8075.58
@@ -878,9 +949,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 7250.73 140.693 2574.58
+  coords 7250.73 140.694 2574.58
   angleX -5.399
   angleY -4.374
   angleZ 3.015
@@ -902,6 +975,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 7928.58 243.939 4131.39
@@ -928,9 +1003,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4044.312 6.256 10543.103
+  coords 4044.312 6.257 10543.103
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -953,9 +1030,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4606.103 35.608 11510.548
+  coords 4606.103 0.723 11510.548
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -979,6 +1058,8 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
   coords 6151.12 12.942 9834.7
@@ -1003,9 +1084,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4958.594 67.859 8776.252
+  coords 4958.594 67.86 8776.252
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -1027,9 +1110,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4947.252 41.521 9531.436
+  coords 4947.252 41.521 9531.437
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -1051,9 +1136,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 4351.294 -22.322 8171.406
+  coords 4351.294 89.39 8171.406
   angleX -6.49
   angleY -4.081
   angleZ 0.391
@@ -1077,9 +1164,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 2111.48 10.245 7189.54
+  coords 2111.48 10.246 7189.54
   angleX 0.326
   angleY -3.541
   angleZ -4.504
@@ -1103,12 +1192,14 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 11332.3 69.102 1824.76
-  angleX -0.127
-  angleY -2.48
-  angleZ -13.084
+  coords 11332.3 69.103 1824.76
+  angleX 6.433
+  angleY -2.402
+  angleZ -26.463
   {
    SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
     components {
@@ -1129,22 +1220,24 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 7430.254 60.531 6049.847
-  angleX -6.49
-  angleY -4.081
-  angleZ 0.391
+  coords 7430.25 34.108 6049.849
+  angleX 15.517
+  angleY -6.073
+  angleZ 16.117
   {
    SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
     components {
      Hierarchy "{5CD0765889102122}" {
      }
     }
-    coords -272.863 54.375 -14.909
-    angleX 1.169
-    angleY -54.668
-    angleZ 4.909
+    coords -261.789 16.053 -25.984
+    angleX 7.507
+    angleY -53.8
+    angleZ 6.072
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
    }
   }
@@ -1155,22 +1248,24 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 6649.477 146.448 6247.349
-  angleX -6.49
-  angleY -4.081
-  angleZ 0.391
+  coords 6649.48 146.448 6247.349
+  angleX -3.478
+  angleY -4.556
+  angleZ 4.653
   {
    SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
     components {
      Hierarchy "{5CD0765889102122}" {
      }
     }
-    coords 265.005 -32.253 -145.379
-    angleX 3.102
-    angleY -54.474
-    angleZ -3.345
+    coords 296.628 -17.932 -240.278
+    angleX 10.073
+    angleY -55.769
+    angleZ -6.477
     AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
    }
   }
@@ -1181,9 +1276,11 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_eGroupType FIRETEAM
     m_iRespawnPeriod 30
     m_fAILimitThreshold 0.95
+    m_iRespawnWaves 1
+    m_iGroupMultiplier 2
    }
   }
-  coords 8974.207 56.729 4979.541
+  coords 8974.207 75.454 4979.541
   angleX -6.49
   angleY -4.081
   angleZ 0.391
